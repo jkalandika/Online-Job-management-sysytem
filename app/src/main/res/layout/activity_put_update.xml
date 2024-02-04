@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#e8f5e9"
+    tools:context=".PutUpdateActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Update"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#388e3c"
+        android:layout_marginBottom="32dp"
+        android:textAlignment="center"
+        android:layout_marginTop="32dp"/>
+
+    <EditText
+        android:id="@+id/input1EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="App Version"
+        android:backgroundTint="#4caf50"
+        android:textColor="#000000"
+        android:textColorHint="#9e9e9e"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/input2EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:backgroundTint="#4caf50"
+        android:textColor="#000000"
+        android:textColorHint="#9e9e9e"
+        android:layout_marginBottom="8dp"
+        android:height="64dp"/>
+
+    <EditText
+        android:id="@+id/input3EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Added Date (dd/mm/yyyy)"
+        android:backgroundTint="#4caf50"
+        android:textColor="#000000"
+        android:textColorHint="#9e9e9e"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:backgroundTint="#4caf50"
+        android:textColor="#ffffff"
+        android:layout_marginTop="32dp"/>
+
+</LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name=".UserListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewRegisteredJobsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentGatewayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JobsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchJobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddJobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewNotificationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageUsersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageUsers"
+            android:exported="false" />
+        <activity
+            android:name=".ViewUpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PutUpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AppUpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Updates"
+            android:exported="false" />
+        <activity
+            android:name=".FreelancerProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditFreelancer"
+            android:exported="false" />
+        <activity
+            android:name=".CompanyNotify"
+            android:exported="false" />
+        <activity
+            android:name=".FreelancerDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CompanyDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FreelancerDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CompanyDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AccountTypeSelectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UserDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CompanyProfileActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

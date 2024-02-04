@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "356140841028",
+    "project_id": "job-magnet-c06b3",
+    "storage_bucket": "job-magnet-c06b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356140841028:android:b41fb3965544c37208e411",
+        "android_client_info": {
+          "package_name": "com.example.jobmagnet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356140841028-7f8ntq1qq9a5hnu9lgvqihgkephm8ec7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpl8-TtCPqC7vMfl9Q8rp-hOI4hHj-fE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356140841028-7f8ntq1qq9a5hnu9lgvqihgkephm8ec7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
